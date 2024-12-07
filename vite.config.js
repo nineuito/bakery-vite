@@ -3,7 +3,7 @@ import { resolve } from 'path'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig({
-  base: '/vite-deployment/',
+  base: '/bakery-vite/',
   build: {
     rollupOptions: {
       input: {
